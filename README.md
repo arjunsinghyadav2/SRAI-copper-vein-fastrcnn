@@ -1,7 +1,7 @@
 # SRAI · Copper-vein detector
 
 Real-time bounding-box detection of copper-bearing veins on a chalcopyrite
-specimen, trained from Frangi-vesselness pseudo-labels — no human annotation.
+specimen, trained from Frangi-vesselness pseudo-labels - no human annotation.
 
 The full write-up is in [`RealTimeCopperVeinDetection.pdf`](RealTimeCopperVeinDetection.pdf).
 
@@ -12,8 +12,8 @@ The full write-up is in [`RealTimeCopperVeinDetection.pdf`](RealTimeCopperVeinDe
 ├── RealTimeCopperVeinDetection.pdf    report
 ├── specimen_video.mp4                 input clip
 ├── src/
-│   ├── extract_frames.py              ffmpeg → data/frames/
-│   ├── auto_annotate.py               Frangi pseudo-label → COCO
+│   ├── extract_frames.py              ffmpeg  data/frames/
+│   ├── auto_annotate.py               Frangi pseudo-label COCO
 │   ├── train.py                       Faster R-CNN MobileNetV3-FPN fine-tune
 │   ├── eval.py                        threshold sweep on test split
 │   ├── detect.py                      run model over the source video
