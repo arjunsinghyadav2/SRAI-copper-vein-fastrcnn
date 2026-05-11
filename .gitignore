@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+data/frames/
+data/masks/
+.DS_Store
+.idea/
+.vscode/
+*.swp
